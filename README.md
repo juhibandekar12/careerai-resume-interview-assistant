@@ -1,4 +1,4 @@
-# 🚀 CareerAI – AI-Powered Career Assistance System
+# CareerAI – AI-Powered Career Assistance System
 
 ## Overview
 

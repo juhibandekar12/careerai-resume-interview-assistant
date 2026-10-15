@@ -1,0 +1,58 @@
+# CareerAI – .gitignore
+
+# Environment (never commit real keys!)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Database
+*.db
+*.sqlite3
+data/*.db
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+# Environment example files containing placeholders only
+env.example.txt
+.env.example
+
+# Local data and generated files
+data/*
+!data/.gitkeep
+
+# Logs
+*.log
+# Local application database
+database/*.db
+
+# Python cache
+__pycache__/
+**/__pycache__/
